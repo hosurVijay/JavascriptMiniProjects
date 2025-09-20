@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="maincontainer">
+        <h1>Currency Converter</h1>
+        <div class="card">
+            <div class="inputBox">
+                <label for="input">From:</label>
+                <input type="number" name="input" id="from" placeholder="Amount" min="0">
+
+                <select name="input-option" id="inputOpt">
+                    <option value="inr">INR</option>
+                </select>
+            </div>
+            <button class="swap">Swap <img src="left-right_10024907.png" alt=""></button>
+            <div class="outputBox">
+                <label for="input">TO:</label>
+                <input type="number" name="input" id="to" placeholder="Amount" disabled>
+
+                <select name="input-option" id="outputOpt">
+                    <option value="usd">Usd</option>
+                </select>
+            </div>
+            <button class="submit">Convert INR to USD</button>
+        </div>
+
+       
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

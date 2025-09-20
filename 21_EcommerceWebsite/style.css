@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #e66465, #9198e5);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 600px;
+    height: max-content;
+    background: rgb(111, 111, 218);
+    border-radius: 10px;
+}
+
+.container h1{
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.product{
+    /* width: 90%; */
+    /* background-color: rgb(164, 192, 201); */
+    padding: 10px 20px;
+    /* margin-left: 25px; */
+    color: #0b15d3;
+    border-radius: 10px;
+}
+
+.product-list{
+    background-color: rgb(164, 192, 201);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 25px;
+    display: flex;
+    width: 90%;
+    padding: 10px 20px;
+    font-size: 24px;
+}
+
+.product-list p{
+    width: 80%;
+    display: flex;
+
+    align-items: center;
+}
+
+.product-list button{
+    padding: 10px 10px;
+    background-color: #777ec7;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.product-list button:hover{
+    background-color: #979ffb;
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.cart-list{
+    display: flex;
+    padding: 10px 20px;
+    background-color: #e66465;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.cart h2{
+    font-size: 26px;
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+}
+
+.cart-list p{
+    font-size: 24px;
+    display: flex;
+    flex: 1;
+    color: rgb(62, 59, 206);
+}
+
+.cart-list button{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 0;
+    background: red;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cart-list button:hover{
+    background: rgb(169, 3, 3);
+}
+
+.checkout{
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.checkout h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.total{
+    margin-top: 0px;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.total p{
+    font-size: 24px;
+}
+
+.total span{
+    font-size: 24px;
+}
+
+.checkout button{
+    padding: 10px 20px ;
+    background: orange;
+    border: 0;
+    border-radius: 10px ;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.checkout button:hover{
+    background: rgb(227, 170, 63);
+}

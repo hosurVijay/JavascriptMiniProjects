@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #153677, #4e085f);
+
+}
+.wallet{
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 20px;
+}
+.wallet h1{
+    color:  #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.wallet h1 img{
+    width: 30px;
+    margin-left: 10px;
+}
+.balance h2{
+    color: #002765;
+}
+.balance{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-top: 25px;
+}
+.balance input{
+    flex:0 ;
+    border: none;
+    background: lightgray;
+    border-radius: 30px;
+    padding: 20px;
+    outline: none;
+}
+
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.display{
+    background: lightgray;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+}
+.display span{
+    font-size: 30px;
+    position: relative;
+    top: 0px;
+    left: 380px;
+    bottom: 100px;
+    right: 100px;
+    color: #002765;
+
+
+}
+.display p{
+    padding-left: 10px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.heading2{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #002765;
+}
+.add-money{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    background-color: #edeef0;
+    border-radius: 40px;
+}
+.add-money input{
+    flex: 1;
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.add-money button{
+    border: none;
+    padding: 16px 50px;
+    background: greenyellow;
+    color: #002765;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 40px;
+}
+button:hover{
+    border: 2px solid green;
+}
+.lists{
+    display: flex;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    height: 60px;
+    margin-top: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 40px;
+
+
+}
+.lists img{
+    /* background: #fff; */
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin: 10px;
+    position: relative;
+    top: 5px;
+    left: -15px;
+    cursor: pointer;
+    
+}
+.lists p{
+    /* background: red; */
+    height: 60px;
+    width: 30%;
+    font-size: 20px;
+    position: relative;
+    right: 80px;
+    left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lists span{
+    /* background: blue; */
+    width: 30%;
+    height: 60px;
+    position: relative;
+    font-size: larger;
+    right: 50px;
+    left: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+
+    /* overflow: hidden; */
+
+}
+
+.lists span:hover{
+    border: 2px solid white;
+}
+
+.checked{
+    color:white;
+    cursor: pointer;
+
+}
+
+
+.bar{
+    margin-top: 20px;
+    height: 30px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.p1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 120px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.p2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 110px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.lists span img{
+    /* background: red; */
+    position: relative;
+    left: 60px;
+    width: 15px;
+    height: 15px;
+    top: -2px;
+    cursor: pointer;
+    visibility: hidden;
+}
+#delete{
+    /* background: #fff; */
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-vector/global-virtual-currency-sign-techno-concept-background-design_1017-52482.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.maincontainer{
+    background: rgba(255,255,255, 0.5);
+    backdrop-filter: blur(5px);
+    height: 400px;
+    width: 60%;
+    border-radius: 10px;
+    color: black;
+}
+
+.maincontainer h1{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(2, 2, 77);
+}
+
+.card{
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* background: red; */
+}
+
+.inputBox{
+    padding: 30px 30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox input{
+    flex: 1;
+    padding: 10px 10px;
+    margin-left: 10px;
+    outline: 0;
+    border: 0;
+    border-radius:10px ;
+    background-color: rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+
+.inputBox select{
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 0;
+    outline: 0;
+    background: rgba(255,255,255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.swap{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background: rgb(105, 135, 224);
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.swap img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+
+.outputBox{
+    padding: 30px 30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outputBox input{
+    flex: 1;
+    padding: 10px 10px;
+    margin-left: 10px;
+    outline: 0;
+    border: 0;
+    border-radius:10px ;
+    background-color: rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+
+.outputBox select{
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 0;
+    outline: 0;
+    background: rgba(255,255,255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.submit{
+    padding: 20px 20px ;
+    width: 50%;
+    border-radius:10px;
+    outline: 0;
+    border: 0;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+}
